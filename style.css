@@ -1,0 +1,179 @@
+
+img{
+    height: 300px;
+    width: 300px;
+   
+    position: relative;
+    border:2px solid #40e0d0;
+    box-shadow: 0 4px 8px cornsilk;
+    
+    border-radius: 50%;
+    
+    display: flex;
+    display: inline-block;
+    margin-left: 100px;
+    margin: 50px;
+    
+
+    
+}
+img:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 16px whitesmoke;
+  
+    
+}
+body{
+    background-color: #1c1c1f;
+    color: white;
+}
+a{
+    
+    text-decoration: none;
+    color: white;
+}
+h1{
+    cursor: pointer;
+    color: #40e0d0;
+}
+h1:hover{
+    transform: scale(2px);
+}
+
+
+#btn{
+    border-radius: 20px;
+    background-color: #1c1c1f;
+    box-shadow: 2px 4px 8px cornsilk;
+    padding:10px;
+   margin: 10px;
+    color: black;
+    border: 2px solid #40e0d0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+#btn:hover{
+    cursor: pointer;
+    box-shadow: 2px 8px 16px whitesmoke;
+    color: red;
+    background-color: #1c1c1f;
+    border: 2px solid #40e0d0;
+/* font-size: larger; */
+}
+p{
+   text-decoration: double;
+}
+#Top{
+    text-shadow: 0px 1.5px 3px #40e0d0;
+}
+h2{
+    text-align: center;
+    color: #f0f0f0;
+}
+div.LeftSection{
+    /* border: 2px solid white; */
+    /* background-color: aqua; */
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 100px;
+    
+
+
+
+    
+}
+#Resume{
+    padding: 10px;
+    /* width: 15px; */
+    border-radius:20px ;
+    font-size: 1.2rem;
+    background-color: #40e0d0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+#Resume:hover{
+    cursor: pointer;
+    background-color: #1c1c1f;
+    border: 2px solid #40e0d0;
+    color: #f0f0f0;
+}
+hr{
+    border: 0.7px solid #40e0d0;
+    width: 60%;
+}
+span{
+    background-color: grey;
+}
+#about{
+    text-align: center;
+
+}
+#about:hover{
+font-size: 2em;
+}
+#Projects{
+    text-align: center;
+}
+#Projects:hover{
+    font-size: 2em;
+}
+#contact{
+    text-align: center;
+}
+
+#contact:hover{
+    font-size: 2em;
+}
+.email{
+    text-align: left;
+}
+.PhoneNumber{
+    text-align: center;
+}
+.Address{
+    text-align: Right;
+}
+.Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footerrights{
+    text-align: center;
+    color: grey;
+}
+nav {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    /* background-color: #2f3b4b; */
+    width: 100%;
+}
+#Left{
+    font-size: 2rem;
+    text-align: left;
+    color: #40e0d0;
+    /* box-shadow: 1px 2px 4px #40e0d0; */
+    margin-right: 150px;
+}
+.LeftSection{
+    
+    display: inline-block;
+    text-align: center;
+    /* font-size: 3rem; */
+    margin-left: 100px;
+    margin-bottom: 70px;
+
+    
+
+}
+.profile{
+    display: inline-block;
+}
+
+
+
+
+
