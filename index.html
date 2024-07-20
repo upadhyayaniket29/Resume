@@ -6,22 +6,16 @@
     <title>Aniket Portfolio</title>
     <link rel="shortcut icon" href="Profile Picture.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+        
 </head>
-<body>
+<body >
     <header>
-        <nav>
-    
-    
-      <div id="Left">Aniket Upadhyay</div>
-      <div id="Right">
-      
-      <button id="btn"><a href="#Home">Home</a></button>
-      <button id="btn"><a href="#about">About</a></button>
-      <button id="btn"><a href="#Projects">Projects</a></button>
-      <button id="btn"><a href="#contact">Contact</a></button>
-      <!-- <p id="Home"> Hello My name is Aniket Upadhyay and I am a Startups passionate Guy and wish to start one</p> -->
-    </div>
-</nav>
+        
 </header>
      <div class="profile">
       <img  src="Profile Picture.jpg" alt="photograpgh of aniket" id="profile">
@@ -30,21 +24,95 @@
       <!-- <figcaption>This is my image</figcaption> -->
 
       <div class="LeftSection">
+        <!-- <img src="b" alt=""> -->
  
-<h2> Hi 👋I'm </h2>
+<h2 id="Hi"> Hi 👋I'm </h2>
 <h1>Aniket Upadhyay</h1>
-<h4>A Full Stack developer</h4>
-<button id="Resume"><a href="RESUME.docx" download="Aniket Upadhyay Resume" id="Resumedownload">Download Resume</a></button>
+<h4 id="element"></h4>
+
+<!-- <h4>A Full Stack developer</h4> -->
+ <br>
+ 
+<!-- <button id="Resume"><a href="RESUME.docx" download="Aniket Upadhyay Resume" id="Resumedownload">Download Resume <i class="fas fa-download"></i></a></button> -->
 
 
 
       </div>
-<section>
-      <h1 id="about">About</h1>
-      <article>As a hustler and explorer, I'm always looking for new challenges and opportunities to grow both personally and professionally  My name is Aniket Upadhyay, and I am passionate about meeting new people, expanding my knowledge, and positively impacting the world. 
-        I am an avid reader and love to indulge myself in books that help me gain insights into different perspectives and experiences. I am also passionate about coding and love to explore new technologies that can help me solve complex problems. 
-        I am currently working on my Startup called "Podosphere". I am excited to continue growing and learning more about the world of technology and startups.
-    </article>
+      <nav class="Heading">
+            
+    
+    
+        <!-- <div id="Left">Aniket Upadhyay</div> -->
+        <div id="Right">
+        
+        <a href="#profile" class="upper" >Home</a>
+        <a href="#about" class="upper" >About</a>
+        <a href="#Projects" class="upper">Projects</a>
+        <a href="#contact" class="upper">Contact</a>
+        <!-- <i class="fa fa-search"></i> -->
+        <!-- <button input type="text"  id="search" title="search"><i class="fa fa-search"></i></button> -->
+        <label for="submit"></label>
+        
+        
+        <span id="bar"></span>
+        
+        <!-- <p id="Home"> Hello My name is Aniket Upadhyay and I am a Startups passionate Guy and wish to start one</p> -->
+      </div>
+  </nav>   
+<section class="abt">
+    <div class="abtme"> 
+      <h1 id="about" ><i class="far fa-user "></i> ABOUT</h1>
+      
+      
+      
+    <div class="flex-1">
+        <img src="code.png" alt="">
+        </div>
+        <div class="flex-1right">
+        <!-- <h1>About</h1> -->
+        <!-- <span>Me</span> -->
+        <h2 id="Aniket">Hello! I'm Aniket Upadhyay</h2>
+        <p>Bachelor of Technology in Computer Science and Design, 3rd Year
+        <br>
+Madhav Institute of Technology and Science ,Gwalior(M.P)
+    </p>
+        <br>
+        <div class="skills-section">
+            <h2 class="Skills">My Skills</h2>
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%;">90%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;">80%</div>
+                </div>
+            </div>
+            <!-- <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%;">10</div>
+                </div>
+            </div> -->
+        </div>
+        <div class="social-media">
+            <a href="https://github.com/upadhyayaniket29" target="_blank">
+                <img src="gitnew.png" alt="Github">
+            </a>
+            <a href="https://www.linkedin.com/in/aniket-upadhyay-02ba07222/" target="_blank">
+                <img src="Linkedin.png" alt="Linkedin">
+            </a>
+            <a href="https://x.com/Aniketu89741067" target="_blank">
+                <img src="X.png" alt="Twitter">
+            </a>
+        </div>
+
+    </div>
+</div>
+
     
     <!-- <div class="socil icons">
        
@@ -56,18 +124,27 @@
     </div> -->
    
     </section>
-    <hr>
+    <!-- <hr> -->
         <!-- <img src="Github Logo.png" alt=""> -->
-         <section>
-        <h1 id="Projects">My Projects</h1>
-        <ul>
-            <li><a href="#profile">My First Portfolio Website</a></li>
+         <section class="projects">
+            <div class="projectlist" >
+
+        <h1 id="Projects" >PROJECTS  <i class="fas fa-code"></i></h1>
         
+            <a href="#profile"></a>
+            <div class="projectimage">
+        <!-- <img src="My Portfolio.png" alt="" id="projectslist"> -->
+    </div>
+        <div class="inner">
+        <h4 class="shifthoja">My First Portfolio Website</h4>
+        <!-- <caption>My First Portfolio Website</caption> -->
+         <button id="visit"><a href="https://upadhyayaniket29.github.io/Resume/">Visit Site</a></button>
+        </div>
 
-
-        </ul>
+        
+    </div>
         </section>
-        <hr>
+        <!-- <hr> -->
         
 <!-- <section>
         <h1>Loved Websites</h1>
@@ -79,21 +156,53 @@
     </ul>
 </section> -->
 
-<section>
-<h1 id="contact">Contact Me</h1>
-<div class="Contact">
+<section class="ContactList">
 
-<h3 class="email">Email id</h3>
+<div class="Contact">
+    <h1 id="contact">Contact Me  <i class="far fa-address-card"></i></h1>
+    <h3 id="contact-subheading">Questions, Thoughts ,Or Just Want to say hello  &#128578 </h3>
+    <form action="/action_page.php" method="get" class="form">
+        <!-- <label for="fname">Your Name:</label> -->
+        <input type="text" id="name" name="fname" placeholder="Enter Your Name"><br><br>
+        <!-- <label for="email">Your Email</label> -->
+        <input type="email" id="email" name="lname" placeholder="Enter Your Email"><br><br>
+        <div class="message">
+        <textarea type="text" name="message" id="message" placeholder="Enter Your Message" cols="30" rows="15"></textarea>
+        
+        
+        </div>
+        <button input type="submit" value="Submit" class="submit">
+             Submit</button>
+        
+      </form>
+      <div class="icons">
+<!-- <i class="fa-brands fa-linkedin icon" aria-hidden="true">
+    <a href="https://www.linkedin.com/in/aniket-upadhyay-02ba07222/" target="_blank" >
+        <link rel="stylesheet" href="Github Logo.png">
+    </a>
+</i> -->
+
+
+
+
+      </div>
+     
+<!-- <h3 class="email">Email id </h3>
+
 <p>upadhyayaniket29@gmail.com</p>
-<h3 class="PhoneNumber">Phone  Number</h3>
+<h3 class="PhoneNumber">Phone  Number </h3>
 <p>+91-9179303750</p>
 <h3 class="Address">Address</h3>
-Gwalior(M.P) India
+
+Gwalior(M.P) India -->
 </div>
+
 
 </section>
 
 <footer>
+
+
 <div class="footerrights">Aniket Portfolio.com | All Rights Reserved</div>
 
 </footer>
@@ -101,6 +210,36 @@ Gwalior(M.P) India
 
 
 
-    
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: [' Web Developer', 'Web Designer'],
+                typeSpeed: 100,
+                backSpeed: 50,
+                loop: true,
+                showCursor: true,  // Optional: Show cursor
+                cursorChar: "|",   // Optional: Cursor character
+                backDelay: 700,    // Optional: Delay before backspacing
+                startDelay: 500 
+      
+    });
+  </script>
+
+<script>
+    var typed = new Typed('#search', {
+      strings: ['Home', 'About','Projects','Contact'],
+                typeSpeed: 100,
+                backSpeed: 50,
+                loop: true,
+                // showCursor: true,  // Optional: Show cursor
+                // cursorChar: "|",   // Optional: Cursor character
+                backDelay: 700,    // Optional: Delay before backspacing
+                startDelay: 500 
+      
+    });
+  </script>
+  
+  
 </body>
 </html>
