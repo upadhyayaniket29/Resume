@@ -1,8 +1,7 @@
 body{
-    width:100%;
+    width: 100%;
     overflow-x:hidden;
-}   
-
+}
 img{
     height: 300px;
     width: 300px;
@@ -308,6 +307,9 @@ margin-right: 50px;
     font-size: 0.8em;
 
 }
+.submit a{
+    color: black;
+}
 .fa{
     color: red;
     
@@ -355,6 +357,10 @@ margin-right: 50px;
     /* margin-left: 20px; */
    
 }
+#widthfull{
+    width: 100%;
+}
+
 .upper{
     margin: 10px;
     font-size: 1.2em;
@@ -366,8 +372,8 @@ margin-right: 50px;
     
 }
 .upper:hover{
-    
-    font-size: 1.5em;
+    transform: scale(1.5);
+    /* font-size: 1.5em; */
     color: #40e0d0;
 }
 #element{
@@ -463,6 +469,9 @@ color: red;
     border: none;
     transition: transform 0.3s;
     /* margin-left: 100px; */
+}
+.social-media img:hover{
+    transform: scale(1.1);
 }
 .flex-1 img{
     flex: 1;
